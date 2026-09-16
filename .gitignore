@@ -56,3 +56,11 @@ android/local.properties
 android/key.properties
 *.keystore
 *.jks
+
+# IDE
+.vscode/
+
+# Local Databases
+*.db
+*.sqlite
+*.sqlite3

@@ -32,8 +32,8 @@ A Flutter mobile application for browsing, rating, and reviewing movies using th
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/rateit.git
-   cd rateit
+   git clone https://github.com/samuraijackmj-cmd/moviereview-app.git
+   cd moviereview-app
    ```
 
 2. **Install dependencies**
@@ -109,6 +109,8 @@ lib/
 - Passwords are hashed with **SHA-256** before storage
 - API Key is injected via `--dart-define` — never committed to source
 - `.env` and `android/local.properties` are excluded from Git
+
+> **Note:** SHA-256 password hashing is used for academic demonstration. For production applications, a salted password hashing algorithm such as bcrypt/Argon2 or a dedicated authentication provider is recommended.
 
 ## 📄 License
 
