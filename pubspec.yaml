@@ -1,0 +1,59 @@
+name: rateit
+description: "RateIt - Your movie review app."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.9.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # 📱 ไอคอน iOS / Cupertino
+  cupertino_icons: ^1.0.8
+
+  # 🌐 เรียก API หนังจาก TMDB
+  http: ^1.5.0
+
+  # 💾 ฐานข้อมูล SQLite
+  sqflite: ^2.4.2
+  sqflite_common_ffi: ^2.3.1+1
+  path: ^1.9.1
+  path_provider: ^2.1.5
+
+  # 📸 เลือกรูปโปรไฟล์จากแกลเลอรี่ / กล้อง
+  image_picker: ^1.2.0
+
+  # 🖋️ ฟอนต์ Google Fonts
+  google_fonts: ^6.3.2
+
+  # 💾 จัดเก็บข้อมูลภายในเครื่อง (token, email, ฯลฯ)
+  shared_preferences: ^2.5.3
+
+  # 🔐 Cryptographic hashing สำหรับ password (SHA-256)
+  crypto: ^3.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # 🔍 ตรวจสอบโค้ดและ lints
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  # 📁 ถ้ามีโฟลเดอร์ assets จริงให้เปิดส่วนนี้ได้เลย
+  # assets:
+  #   - assets/icons/
+  #   - assets/images/
+
+  # 🖋️ ถ้าใช้ฟอนต์เอง (มีไฟล์ใน assets/fonts/) ให้เปิดส่วนนี้
+  # fonts:
+  #   - family: Poppins
+  #     fonts:
+  #       - asset: assets/fonts/Poppins-Regular.ttf
+  #       - asset: assets/fonts/Poppins-Bold.ttf
+  #         weight: 700
